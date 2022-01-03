@@ -1,0 +1,15 @@
+tool:
+  users:
+    user:
+      dash:
+        license: |                      # your dash license to activate
+          dash-license-text
+  dash:
+    users:
+      user:                             # user configuration can also be specified in tool:dash:users
+        dash:
+          license: |
+            dash-license-text
+    defaults:                           # default formula configuration for all users
+      license: |
+        dash-license-text
