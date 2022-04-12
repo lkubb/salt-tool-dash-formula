@@ -9,5 +9,3 @@
 Dash is removed:
   pkg.removed:
     - name: {{ dash.lookup.pkg.name }}
-    - require:
-      - sls: {{ sls_config_clean }}

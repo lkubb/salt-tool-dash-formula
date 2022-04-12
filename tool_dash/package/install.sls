@@ -5,6 +5,7 @@
 {%- set tplroot = tpldir.split('/')[0] %}
 {%- from tplroot ~ "/map.jinja" import mapdata as dash with context %}
 
+
 Dash is installed:
   pkg.installed:
     - name: {{ dash.lookup.pkg.name }}
