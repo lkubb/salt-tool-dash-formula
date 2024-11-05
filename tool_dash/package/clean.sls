@@ -1,8 +1,11 @@
-# -*- coding: utf-8 -*-
 # vim: ft=sls
 
+{#-
+    Removes the Dash package.
+#}
+
 {#- Get the `tplroot` from `tpldir` #}
-{%- set tplroot = tpldir.split('/')[0] %}
+{%- set tplroot = tpldir.split("/")[0] %}
 {%- from tplroot ~ "/map.jinja" import mapdata as dash with context %}
 
 
