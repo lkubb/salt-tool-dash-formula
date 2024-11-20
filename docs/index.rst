@@ -1,5 +1,5 @@
-Welcome to salt-tool-dash-formula's documentation!
-==================================================
+Welcome to tool-dash-formula's documentation!
+=============================================
 
 .. toctree::
    :maxdepth: 2
